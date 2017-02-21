@@ -1,0 +1,12 @@
+server:
+  port: 5555
+  
+spring: 
+  application:
+    name: demo6-config-server
+    
+  cloud:
+    config:
+      server:
+        git:
+          uri: 
